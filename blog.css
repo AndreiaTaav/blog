@@ -1,0 +1,98 @@
+body{
+    background-color: #abcdef;
+    margin: 0;
+    margin-top: 80px;
+}
+header{
+    height: 80px;
+    background-color: yellow;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header h1{
+    display: inline;
+    margin: 0;
+}
+header h3{
+    display: inline;
+    margin-top: 0;
+
+}
+.unica, sidebar{
+    min-height: 700px;
+    margin: 1%;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.unica{
+    background-color: #FF530D;
+    width: 70%;
+    float: left;
+    color: black;
+    font-family: Georgia, sans-serif;
+}
+sidebar{
+    background-color: #FF956F;
+    width: 26%;
+    float: right;
+    color: black;
+
+}
+address{
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+}
+h5{
+    text-align: center;
+}
+footer{
+    height: 40px;
+    background-color: pink;
+}
+main:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+a:hover{
+    color: lime;
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: black;
+}
+sidebar ul{
+    list-style-type: none;
+}
+h4{
+    margin: 20px;
+    font-style: italic;
+}
+sidebar > ul > li{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-style: italic;
+}    
+siderbar a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+sidebar a:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: black;
+}
